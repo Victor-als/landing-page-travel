@@ -5,14 +5,14 @@ export function App() {
 
   return (
     <>
-      <div className="">
+      <div>
        <section className="h-screen bg-background bg-no-repeat bg-cover 
-        min-h-[800px] max-h-[1366px]">
+        min-h-[800px] flex flex-col">
         <header className="flex justify-between px-12 py-8">
           <div className="">
               <img src="./src/assets/logo.svg" alt=""/>
           </div>
-          <nav className="flex gap-8 text-zinc-500 ">
+          <nav className="flex gap-6 text-zinc-500 ">
             <ul>
               <a href="">
                 <li>Home</li>
@@ -45,11 +45,17 @@ export function App() {
           </nav>
         </header>
 
-          <main className="min-w-[1100px] px-28 py-16">
-            <h1 className="text-7xl text-white">The whole world awaits.</h1>
+          <main className="min-w-[1100px] px-28 py-24">
+            <h1 
+               className="text-7xl text-white font-bold">
+                The whole world <br />awaits.
+            </h1>
 
-            <Search />
+            <div className="pt-24">
+              <Search />
+            </div>
           </main>
+
        </section>
       </div>
     </>
