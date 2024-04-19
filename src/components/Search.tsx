@@ -2,6 +2,7 @@ import searchIcon from '../assets/icon-search.svg';
 import calendarIcon from '../assets/calendar.svg';
 import personIcon from '../assets/person.svg';
 
+
 export function Search(){
   return(
     <div className="flex gap-8 justify-between items-center bg-background-search 
@@ -40,7 +41,8 @@ export function Search(){
         </div>
      </div>
     
-      <button className='bg-white rounded-[32px] w-36 h-8 text-[#2659C3] font-bold'>
+      <button className='
+        flex items-center justify-center bg-white rounded-[32px] w-36 h-12 text-[#2659C3] font-bold p-5'>
         <p>Search</p>
       </button>
     </div>
