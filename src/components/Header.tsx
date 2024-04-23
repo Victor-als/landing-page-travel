@@ -4,11 +4,11 @@ export function Header (){
           <div className="">
               <img src="./src/assets/logo.svg" alt=""/>
           </div>
-          <nav className="flex gap-6 text-zinc-500 ">
+          <nav className="flex gap-6 text-white ">
             <ul>
               <a href="">
                 <li className="hover:border-b-2">Home</li>
-              </a>
+              </a> 
             </ul>
             <ul>
 

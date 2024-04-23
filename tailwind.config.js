@@ -8,10 +8,12 @@ export default {
     extend: {
       colors: {
         'background-search': 'rgba(255,255,255,0.4)',
-        'background-black': 'rgba(0,0,0,0.5)',
+        'background-black': 'rgba(0,0,0,0.3)',
       },
       backgroundImage: {
-        background: 'url(src/assets/montain.jpg)'
+        background: 'url(src/assets/montain.jpg)',
+        backgroundTrip: 'url(src/assets/trip.jpg)',
+        backgroundFooter: 'url(src/assets/montainFooter.jpg)'
       }   
     },
   },
