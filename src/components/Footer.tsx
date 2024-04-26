@@ -4,43 +4,40 @@ import { BsTwitter } from "react-icons/bs";
 
 export function Footer(){
   return (
-    <footer className="bg-stone-900 h-96 pt-16 px-32 w-full">
-
-
-      <div className="flex gap-48 text-lg text-gray-400">
+    <footer className="bg-stone-900 pb-20 pt-16 2xl:px-32 sm:px-24 w-full">
+      <div className="flex flex-shrink-0 sm:gap-10 2xl:gap-32 xl:gap-28
+      text-lg text-gray-400">
           <img src={logoIcon} className="mb-20" alt="" />
-        <div>
-          <ul className="flex flex-col gap-2">
-            <li>Seslendirme ve Alt Jazz</li>
-            <li>Media Market</li>
-            <li>Gillie</li>
-            <li>Size Last</li>
-          </ul>
+
+      <div className="flex 2xl:gap-44 xl:gap-24 lg:gap-14 sm:items-center sm:justify-start md:gap-10 sm:gap-10 flex-wrap">
+
+        <div className="w-30 flex justify-start flex-col gap-2">
+            <p>Seslendirme ve Alt Jazz</p>
+            <p>Media Market</p>
+            <p>Gilpe</p>
+            <p>Size Last</p>
         </div>
 
-        <div>
-          <ul className="flex flex-col gap-2">
-            <li>Self Betimes</li>
-            <li>Yatirimci Iliskileri</li>
-            <li>Basal Himmler</li>
-          </ul>
+        <div className="w-30 flex justify-start flex-col gap-2">
+         
+            <p>Self Betimes</p>
+            <p>Yatirimci Ipskileri</p>
+            <p>Basal Himmler</p>
+
         </div>
 
-        <div>
-          <ul className="flex flex-col gap-2">
-            <li>Yard Market</li>
-            <li>Is Imkanları</li>
-            <li>Car Tercihleri</li>
-          </ul>
+        <div className="w-30 flex justify-start flex-col gap-2">
+            <p>Yard Market</p>
+            <p>Is Imkanları</p>
+            <p>Car Tercihleri</p> 
         </div>
 
-        <div>
-          <ul className="flex flex-col gap-2">
-            <li>Hedge Karla</li>
-            <li>Mullein Kosullari</li>
-            <li>Autumnal Bulgier</li>
-          </ul>
+        <div className="w-30 flex justify-start flex-col gap-2">
+            <p>Hedge Karla</p>
+            <p>Mullein Kosullari</p>
+            <p>Autumnal Bulgier</p>
         </div>
+      </div>
       </div>
 
 
@@ -50,7 +47,7 @@ export function Footer(){
             <button className="border-2 border-gray-400 w-[7rem] p-2">
               Helmet KOD
             </button>
-            <p>© 1997-2021 Netflix, Inc. i-062d573a0ee099242</p>
+            <p>© 1997-2021 Netfpx, Inc. i-062d573a0ee099242</p>
           </div>
 
           <div className="flex gap-4"> 
@@ -60,9 +57,6 @@ export function Footer(){
             <ImYoutube size={34} />
           </div>
       </div>
-
-
-       
   </footer>
   )
 }
