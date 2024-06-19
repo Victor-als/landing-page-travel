@@ -11,9 +11,9 @@ export default {
         'background-black': 'rgba(0,0,0,0.3)',
       },
       backgroundImage: {
-        background: 'url(src/assets/montain.jpg)',
-        backgroundTrip: 'url(src/assets/trip.jpg)',
-        backgroundFooter: 'url(src/assets/montainFooter.jpg)'
+        background: 'url(src/assets/images/montain.jpg)',
+        backgroundTrip: 'url(src/assets/images/trip.jpg)',
+        backgroundFooter: 'url(src/assets/images/montainFooter.jpg)'
       }   
     },
   },

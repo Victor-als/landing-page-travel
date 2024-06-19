@@ -1,88 +1,95 @@
 import ScrollContainer from "react-indiana-drag-scroll";
+import romaPicture from "../assets/images/roma.jpg";
+import parisPicture from "../assets/images/paris.jpg";
+import beachPicture from "../assets/images/beach.jpg";
+import italiaPicture from "../assets/images/italia.jpg";
+import greciaPicture from "../assets/images/grecia.jpg";
+import californiaPicture from "../assets/images/california.jpg";
+import newYorkPictures from "../assets/images/new-york.jpg";
 
 export function Gallery () {
   return (
     <>
     <section className="pl-28 pt-12">
           <h1 className="text-3xl text-black font-bold pb-10">
-            Top Vacation Destinations
+            Top Vacation Destination
           </h1>
 
       <ScrollContainer className="flex gap-6">
           <div className="relative min-w-[300px] min-h-300px">
             <img 
               className="rounded-lg h-48 w-80"
-              src="https://source.unsplash.com/random/landscape/?landscape,adventure" 
+              src={romaPicture}
               alt="" />
               <p 
                className="absolute font-bold text-xl mx-auto bottom-6 pl-5 text-white">
-                lorem Ipsun
+                Roma
               </p>
           </div>
 
           <div className="relative min-w-[300px] min-h-300px">
             <img 
               className="rounded-lg h-48 w-80"
-              src="https://source.unsplash.com/random/landscape/?landscape,brazil" 
+              src={parisPicture}
               alt="" />
               <p 
                className="absolute font-bold text-xl mx-auto bottom-6 pl-5 text-white">
-                lorem Ipsun
+                Paris
               </p>
           </div>
 
           <div className="relative min-w-[300px] min-h-300px">
             <img 
               className="rounded-lg h-48 w-80"
-              src="https://source.unsplash.com/random/landscape/?landscape,italia" 
+              src={beachPicture}
               alt="" />
               <p 
                className="absolute font-bold text-xl mx-auto bottom-6 pl-5 text-white">
-                lorem Ipsun
+                Brazil
               </p>
           </div>
 
           <div className="relative min-w-[300px] min-h-300px">
             <img 
               className="rounded-lg h-48 w-80"
-              src="https://source.unsplash.com/random/landscape/?landscape,bali" 
+              src={italiaPicture}
               alt="" />
               <p 
                className="absolute font-bold text-xl mx-auto bottom-6 pl-5 text-white">
-                lorem Ipsun
+                Italia
               </p>
           </div>
 
           <div className="relative min-w-[300px] min-h-300px">
             <img 
               className="rounded-lg h-48 w-80"
-              src="https://source.unsplash.com/random/landscape/?landscape,france" 
+              src={greciaPicture}
               alt="" />
               <p 
                className="absolute font-bold text-xl mx-auto bottom-6 pl-5 text-white">
-                lorem Ipsun
+                Grécia
               </p>
           </div>
 
           <div className="relative min-w-[300px] min-h-300px">
             <img 
               className="rounded-lg h-48 w-80"
-              src="https://source.unsplash.com/random/landscape/?landscape,swiss" 
+              src={californiaPicture}
               alt="" />
               <p 
                className="absolute font-bold text-xl mx-auto bottom-6 pl-5 text-white">
-                lorem Ipsun
+                California
               </p>
           </div>
 
           <div className="relative min-w-[300px] min-h-300px">
             <img 
               className="rounded-lg h-48 w-80"
-              src="https://source.unsplash.com/random/landscape/?landscape,australia" 
+              src={newYorkPictures}
               alt="" />
               <p 
                className="absolute font-bold text-xl mx-auto bottom-6 pl-5 text-white">
-                lorem Ipsun
+                New York
               </p>
           </div>
        </ScrollContainer>

@@ -3,11 +3,22 @@ import { Search } from "./components/Search";
 import { Header } from "./components/Header";
 import { Gallery } from "./components/Gallery";
 import { OfferCards } from "./components/OfferCards";
-import Iphone from "./assets/iphone.png";
-import appStore from "./assets/appStore.png";
-import android from "./assets/android.png";
+import Iphone from "./assets/images/iphone.png";
+import appStore from "./assets/images/appStore.png";
+import android from "./assets/images/android.png";
 import ScrollContainer from "react-indiana-drag-scroll";
 import { Footer } from "./components/Footer";
+import hotelsPicture from "./assets/images/hotels.jpg";
+import resortPicture from "./assets/images/resort.jpg";
+import apartmentPicture from "./assets/images/apartment.jpg";
+import campingPicture from "./assets/images/camping.jpg";
+import villasPicture from "./assets/images/villas.jpg";
+import housesPicture from "./assets/images/houses.jpg";
+import indiaPicture from "./assets/images/india.jpg";
+import travelTalkPicture from "./assets/images/travel-talk.jpg";
+import mountainsPicture from "./assets/images/mountains.jpg";
+import sunBeachPicture from "./assets/images/sun-beach.jpg";
+
 
 export function App() {
 
@@ -40,73 +51,73 @@ export function App() {
 
        <section className="pl-28 pt-20">
           <h1 className="text-3xl text-black font-bold pb-10">
-            Top Vacation Destinations
+            Browse by property type
           </h1>
 
             <ScrollContainer className="flex gap-6">
                 <div className="relative min-w-[300px] min-h-300px">
                   <img 
                     className="rounded-lg h-48 w-80"
-                    src="https://source.unsplash.com/random/landscape/?hotels" 
+                    src={hotelsPicture}
                     alt="" />
                     <p 
                     className="absolute font-bold text-xl mx-auto bottom-6 pl-5 text-white">
-                      lorem Ipsun
+                      Hotels
                     </p>
                 </div>
 
                 <div className="relative min-w-[300px] min-h-300px">
                   <img 
                     className="rounded-lg h-48 w-80"
-                    src="https://source.unsplash.com/random/landscape/?apartments" 
+                    src={apartmentPicture}
                     alt="" />
                     <p 
                     className="absolute font-bold text-xl mx-auto bottom-6 pl-5 text-white">
-                      lorem Ipsun
+                      Apartments
                     </p>
                 </div>
 
                 <div className="relative min-w-[300px] min-h-300px">
                   <img 
                     className="rounded-lg h-48 w-80"
-                    src="https://source.unsplash.com/random/landscape/?resorts" 
+                    src={resortPicture}
                     alt="" />
                     <p 
                     className="absolute font-bold text-xl mx-auto bottom-6 pl-5 text-white">
-                      lorem Ipsun
+                      Resorts
                     </p>
                 </div>
 
                 <div className="relative min-w-[300px] min-h-300px">
                   <img 
                     className="rounded-lg h-48 w-80"
-                    src="https://source.unsplash.com/random/landscape/?villas" 
+                    src={campingPicture}
                     alt="" />
                     <p 
                     className="absolute font-bold text-xl mx-auto bottom-6 pl-5 text-white">
-                      lorem Ipsun
+                      Camping
                     </p>
                 </div>
 
                 <div className="relative min-w-[300px] min-h-300px">
                   <img 
                     className="rounded-lg h-48 w-80"
-                    src="https://source.unsplash.com/random/landscape/?desert" 
+                    src={villasPicture}
                     alt="" />
                     <p 
                     className="absolute font-bold text-xl mx-auto bottom-6 pl-5 text-white">
-                      lorem Ipsun
+                      Villas
                     </p>
                 </div>
 
                 <div className="relative min-w-[300px] min-h-300px">
                   <img 
                     className="rounded-lg h-48 w-80"
-                    src="https://source.unsplash.com/random/landscape/?beach" 
+                    src={housesPicture}
                     alt="" />
                     <p 
                     className="absolute font-bold text-xl mx-auto bottom-6 pl-5 text-white">
-                      lorem Ipsun
+                      Camping
                     </p>
                 </div>
             </ScrollContainer>
@@ -138,7 +149,7 @@ export function App() {
                   <div className="flex min-w-[240px] min-h-[100px]">
                         <img 
                           className="rounded-lg h-42 w-[22rem]"
-                          src="https://source.unsplash.com/random/landscape/?landscape" 
+                          src={indiaPicture}
                           alt="" />
                     </div>
 
@@ -158,13 +169,13 @@ export function App() {
                   <div className="flex flex-nowrap min-w-[240px] min-h-[100px]">
                       <img 
                         className="rounded-lg h-42 w-[22rem]"
-                        src="https://source.unsplash.com/random/landscape/?landscape" 
+                        src={travelTalkPicture}
                         alt="" />
                   </div>
 
                   <div className="pt-2">
                     <p className="text-2xl">
-                      India
+                      Travel Talk
                     </p>
                     <div className="pt-3">
                       <p className="text-gray-400">Travel community</p>
@@ -178,13 +189,13 @@ export function App() {
                   <div className="flex flex-nowrap min-w-[240px] min-h-[100px]">
                       <img 
                         className="rounded-lg h-42 w-[22rem]"
-                        src="https://source.unsplash.com/random/landscape/?landscape" 
+                        src={sunBeachPicture}
                         alt="" />
                   </div>
 
                   <div className="pt-2">
                     <p className="text-2xl">
-                      India
+                      Beach
                     </p>
                     <div className="pt-3">
                       <p className="text-gray-400">Travel community</p>
@@ -198,53 +209,13 @@ export function App() {
                   <div className="flex flex-nowrap min-w-[240px] min-h-[100px]">
                       <img 
                         className="rounded-lg h-42 w-[22rem]"
-                        src="https://source.unsplash.com/random/landscape/?landscape" 
+                        src={mountainsPicture}
                         alt="" />
                   </div>
 
                   <div className="pt-2">
                     <p className="text-2xl">
-                      India
-                    </p>
-                    <div className="pt-3">
-                      <p className="text-gray-400">Travel community</p>
-                      <p className="text-gray-400">155,073 travelers</p>
-                    </div>
-                  </div>
-                  
-                </div>
-
-                <div className=" flex flex-col flex-shrink-0 rounded-[1rem] h-[22rem] shadow-md p-4">
-                  <div className="flex flex-nowrap min-w-[240px] min-h-[100px]">
-                      <img 
-                        className="rounded-lg h-42 w-[22rem]"
-                        src="https://source.unsplash.com/random/landscape/?landscape" 
-                        alt="" />
-                  </div>
-
-                  <div className="pt-2">
-                    <p className="text-2xl">
-                      India
-                    </p>
-                    <div className="pt-3">
-                      <p className="text-gray-400">Travel community</p>
-                      <p className="text-gray-400">155,073 travelers</p>
-                    </div>
-                  </div>
-                  
-                </div>
-
-                <div className=" flex flex-col flex-shrink-0 rounded-[1rem] h-[22rem] shadow-md p-4">
-                  <div className="flex flex-nowrap min-w-[240px] min-h-[100px]">
-                      <img 
-                        className="rounded-lg h-42 w-[22rem]"
-                        src="https://source.unsplash.com/random/landscape/?landscape" 
-                        alt="" />
-                  </div>
-
-                  <div className="pt-2">
-                    <p className="text-2xl">
-                      India
+                      Mountains
                     </p>
                     <div className="pt-3">
                       <p className="text-gray-400">Travel community</p>
