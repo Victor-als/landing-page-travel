@@ -1,4 +1,7 @@
-import ScrollContainer from "react-indiana-drag-scroll"
+import ScrollContainer from "react-indiana-drag-scroll";
+import airplanePicture from "../assets/images/airplane.jpg";
+import housePicture from "../assets/images/house-beach.jpg";
+import mountainPicture from "../assets/images/mountains.jpg";
 
 export function OfferCards () {
   return (
@@ -9,12 +12,12 @@ export function OfferCards () {
 <ScrollContainer className="flex items-center gap-10 h-[20rem]">
         <div className="flex flex-shrink-0 gap-4 rounded-[1rem] h-[16rem] w-[42rem] shadow-md p-4">
 
-        <div className="flex flex-nowrap min-w-[240px] min-h-[100px]">
-          <img 
-            className="rounded-lg h-42 w-[18rem]"
-            src="" 
-            alt="" />
-          </div>
+          <div className="flex flex-nowrap min-w-[240px] min-h-[100px]">
+            <img 
+              className="rounded-lg h-42 w-[18rem]"
+              src={airplanePicture}
+              alt="" />
+            </div>
 
           <div>
             <p 
@@ -40,13 +43,14 @@ export function OfferCards () {
           
         </div>
 
-        <div className=" flex flex-shrink-0 gap-4 rounded-[1rem] h-[16rem] w-[42rem] shadow-md p-4">
+        <div className="flex flex-shrink-0 gap-4 rounded-[1rem] h-[16rem] w-[42rem] shadow-md p-4">
           <div className="flex flex-nowrap min-w-[240px] min-h-[100px]">
             <img 
               className="rounded-lg h-42 w-[18rem]"
-              src="" 
+              src={housePicture}
               alt="" />
             </div>
+
           <div>
             <p 
               className="text-gray-400 text-sm mb-1">
@@ -74,7 +78,7 @@ export function OfferCards () {
           <div className="flex flex-nowrap min-w-[240px] min-h-[100px]">
             <img 
               className="rounded-lg h-42 w-[18rem]"
-              src="" 
+              src={mountainPicture}
               alt="" />
             </div>
           <div>
@@ -91,65 +95,6 @@ export function OfferCards () {
 
             <p className="text-gray-400 text-md mt-3">
              Get discount on flights, hotels and holiday packages with HDFC bank credit card.
-            </p>
-
-            <button className="bg-blue-600 w-[8rem] text-white p-2 rounded-[2rem] mt-6">
-              Book Now
-            </button>
-
-          </div>
-        </div>
-
-        <div className=" flex flex-shrink-0 gap-4 rounded-[1rem] h-[16rem] w-[42rem] shadow-md p-4">
-          <div className="flex flex-nowrap min-w-[240px] min-h-[100px]">
-            <img 
-              className="rounded-lg h-42 w-[18rem]"
-              src="" 
-              alt="" />
-          </div>
-          <div>
-            <p 
-              className="text-gray-400 text-sm mb-1">
-                Dosmestic Flights
-            </p>
-
-            <p 
-              className="font-bold text-2xl">
-                Huge savings on flight with trxvl
-            </p>
-
-
-            <p className="text-gray-400 text-md mt-3">
-              Book domestic flights starting @ just $1459
-            </p>
-
-            <button className="bg-blue-600 w-[8rem] text-white p-2 rounded-[2rem] mt-6">
-              Book Now
-            </button>
-
-          </div>
-        </div>
-        <div className=" flex flex-shrink-0 gap-4 rounded-[1rem] h-[16rem] w-[42rem] shadow-md p-4">
-          <div className="flex flex-nowrap min-w-[240px] min-h-[100px]">
-            <img 
-              className="rounded-lg h-42 w-[18rem]"
-              src="" 
-              alt="" />
-            </div>
-          <div>
-            <p 
-              className="text-gray-400 text-sm mb-1">
-                Dosmestic Flights
-            </p>
-
-            <p 
-              className="font-bold text-2xl">
-                Huge savings on flight with trxvl
-            </p>
-
-
-            <p className="text-gray-400 text-md mt-3">
-              Book domestic flights starting @ just $1459
             </p>
 
             <button className="bg-blue-600 w-[8rem] text-white p-2 rounded-[2rem] mt-6">
