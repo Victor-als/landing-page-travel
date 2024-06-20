@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# Travel Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse projeto segue o exemplo de uma landing page de viagens.
 
-Currently, two official plugins are available:
+#### Foi desenvolvido com ReactJS, vite e tailwind Css.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+Para usar a aplicação basta clonar o projeto: `https://github.com/Victor-als/landing-page-travel`.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Depois de clonado entre na pasta do projeto e rode o seguinte comando para baixar as dependências:
 
-- Configure the top-level `parserOptions` property like this:
+`npm install` ou `npm i` ambos funcionam.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+E para rodar: 
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+`npm run dev`.
+
+---
+
+### Imagem da tela
+![Opera Instantâneo_2024-06-20_152958_localhost](https://github.com/Victor-als/ignite-feed/assets/66024677/c4c61bb8-fb12-4d69-bd28-2a70e1cdc635)
+
